@@ -8,6 +8,7 @@ import Green from "./Green";
 import Orange from "./Orange";
 import Purple from "./Purple";
 import Turquoise from "./Turquoise";
+import Brown from "./Brown";
 
 function MainContainer() {
   return (
@@ -21,6 +22,7 @@ function MainContainer() {
         <Route path="/orange" element={<Orange />} />
         <Route path="/purple" element={<Purple />} />
         <Route path="/turquoise" element={<Turquoise />} />
+        <Route path="/brown" element={<Brown />} />
       </Routes>
     </div>
   );

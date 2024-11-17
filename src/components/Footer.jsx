@@ -11,6 +11,7 @@ function Footer() {
             <Link to="/orange">Orange</Link>
             <Link to="/purple">Purple</Link>
             <Link to="/turquoise">Turquoise</Link>
+            <Link to="/brown">Brown</Link>
         </footer>
     );
 }
